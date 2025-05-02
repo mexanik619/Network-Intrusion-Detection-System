@@ -1,0 +1,82 @@
+2025-05-02 08:23:11,881 - INFO - Starting NIDS Web Server
+2025-05-02 08:23:11,881 - WARNING - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+2025-05-02 08:23:11,932 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+2025-05-02 08:23:11,933 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-02 08:23:11,933 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-02 08:23:12,733 - INFO - Starting NIDS Web Server
+2025-05-02 08:23:12,733 - WARNING - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+2025-05-02 08:23:12,740 - WARNING -  * Debugger is active!
+2025-05-02 08:23:12,744 - INFO -  * Debugger PIN: 103-140-883
+2025-05-02 08:23:41,085 - INFO - 192.168.1.4 - - [02/May/2025 08:23:41] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-02 08:23:41,671 - INFO - 192.168.1.4 - - [02/May/2025 08:23:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-02 08:23:45,799 - INFO - 127.0.0.1 - - [02/May/2025 08:23:45] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-02 08:23:46,104 - INFO - 127.0.0.1 - - [02/May/2025 08:23:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-02 08:24:06,395 - INFO - Starting NIDS Web Server
+2025-05-02 08:24:06,395 - WARNING - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+2025-05-02 08:24:06,410 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+2025-05-02 08:24:06,410 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-02 08:24:06,410 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-02 08:24:07,064 - INFO - Starting NIDS Web Server
+2025-05-02 08:24:07,064 - WARNING - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+2025-05-02 08:24:07,069 - WARNING -  * Debugger is active!
+2025-05-02 08:24:07,072 - INFO -  * Debugger PIN: 103-140-883
+2025-05-02 08:24:12,806 - INFO - 127.0.0.1 - - [02/May/2025 08:24:12] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-02 08:24:43,402 - INFO - 127.0.0.1 - - [02/May/2025 08:24:43] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-02 08:25:05,155 - INFO -  * Detected change in 'c:\\Users\\Administrator\\Documents\\GitHub\\Network-Intrusion-Detection-System\\nidswebserver.py', reloading
+2025-05-02 08:25:05,156 - INFO -  * Detected change in 'c:\\Users\\Administrator\\Documents\\GitHub\\Network-Intrusion-Detection-System\\nidswebserver.py', reloading
+2025-05-02 08:25:05,159 - INFO -  * Detected change in 'c:\\Users\\Administrator\\Documents\\GitHub\\Network-Intrusion-Detection-System\\nidswebserver.py', reloading
+2025-05-02 08:25:05,346 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-02 08:25:06,079 - INFO - Starting NIDS Web Server
+2025-05-02 08:25:06,079 - WARNING - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+2025-05-02 08:25:06,083 - WARNING -  * Debugger is active!
+2025-05-02 08:25:06,085 - INFO -  * Debugger PIN: 103-140-883
+2025-05-02 08:26:50,286 - INFO - Starting NIDS Web Server
+2025-05-02 08:26:50,287 - WARNING - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+2025-05-02 08:26:50,305 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+2025-05-02 08:26:50,305 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-02 08:26:50,305 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-02 08:26:50,986 - INFO - Starting NIDS Web Server
+2025-05-02 08:26:50,987 - WARNING - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+2025-05-02 08:26:50,993 - WARNING -  * Debugger is active!
+2025-05-02 08:26:50,995 - INFO -  * Debugger PIN: 103-140-883
+2025-05-02 08:26:53,849 - INFO - 192.168.1.4 - - [02/May/2025 08:26:53] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-02 08:27:48,016 - INFO -  * Detected change in 'c:\\Users\\Administrator\\Documents\\GitHub\\Network-Intrusion-Detection-System\\nidswebserver.py', reloading
+2025-05-02 08:27:48,338 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-02 08:27:49,184 - INFO - Starting NIDS Web Server
+2025-05-02 08:27:49,184 - WARNING - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+2025-05-02 08:27:49,190 - WARNING -  * Debugger is active!
+2025-05-02 08:27:49,192 - INFO -  * Debugger PIN: 103-140-883
+2025-05-02 08:29:20,789 - INFO - 192.168.1.4 - - [02/May/2025 08:29:20] "GET / HTTP/1.1" 200 -
+2025-05-02 08:31:03,026 - INFO - 192.168.1.4 - - [02/May/2025 08:31:03] "GET / HTTP/1.1" 200 -
+2025-05-02 08:31:03,214 - INFO - 192.168.1.4 - - [02/May/2025 08:31:03] "GET /socket.io/?EIO=4&transport=polling&t=PQEyBfe HTTP/1.1" 200 -
+2025-05-02 08:31:03,239 - INFO - Client connected: bjVh3VDHvsXnrfPsAAAB
+2025-05-02 08:31:03,240 - INFO - 192.168.1.4 - - [02/May/2025 08:31:03] "POST /socket.io/?EIO=4&transport=polling&t=PQEyBfx&sid=dtD5G9QjuDd6hVnqAAAA HTTP/1.1" 200 -
+2025-05-02 08:31:03,243 - INFO - 192.168.1.4 - - [02/May/2025 08:31:03] "GET /socket.io/?EIO=4&transport=polling&t=PQEyBfz&sid=dtD5G9QjuDd6hVnqAAAA HTTP/1.1" 200 -
+2025-05-02 08:33:13,711 - INFO - Client disconnected: bjVh3VDHvsXnrfPsAAAB
+2025-05-02 08:33:13,712 - INFO - 192.168.1.4 - - [02/May/2025 08:33:13] "GET /socket.io/?EIO=4&transport=websocket&sid=dtD5G9QjuDd6hVnqAAAA HTTP/1.1" 200 -
+2025-05-02 08:33:13,798 - INFO - 192.168.1.4 - - [02/May/2025 08:33:13] "GET / HTTP/1.1" 200 -
+2025-05-02 08:33:13,967 - INFO - 192.168.1.4 - - [02/May/2025 08:33:13] "GET /socket.io/?EIO=4&transport=polling&t=PQEyhag HTTP/1.1" 200 -
+2025-05-02 08:33:13,981 - INFO - Client connected: HLnicSMnGEKniU0vAAAD
+2025-05-02 08:33:13,982 - INFO - 192.168.1.4 - - [02/May/2025 08:33:13] "POST /socket.io/?EIO=4&transport=polling&t=PQEyhar&sid=k4VAw80cfmXaCQUzAAAC HTTP/1.1" 200 -
+2025-05-02 08:33:13,986 - INFO - 192.168.1.4 - - [02/May/2025 08:33:13] "GET /socket.io/?EIO=4&transport=polling&t=PQEyhat&sid=k4VAw80cfmXaCQUzAAAC HTTP/1.1" 200 -
+2025-05-02 08:33:15,558 - INFO - Starting NIDS with command: ./nids.py -i eth0 -p 15 -d 100 -w 127.0.0.1 192.168.1.1
+2025-05-02 08:33:15,581 - ERROR - Failed to start NIDS: [WinError 193] %1 is not a valid Win32 application
+2025-05-02 08:33:15,582 - INFO - 192.168.1.4 - - [02/May/2025 08:33:15] "POST /api/start HTTP/1.1" 200 -
+2025-05-02 08:35:03,922 - INFO - Starting NIDS with command: ./nids.py -i eth0 -p 15 -d 100 -w 127.0.0.1 192.168.1.1
+2025-05-02 08:35:03,922 - ERROR - Failed to start NIDS: [WinError 193] %1 is not a valid Win32 application
+2025-05-02 08:35:03,923 - INFO - 192.168.1.4 - - [02/May/2025 08:35:03] "POST /api/start HTTP/1.1" 200 -
+2025-05-02 08:35:43,326 - INFO - Client disconnected: HLnicSMnGEKniU0vAAAD
+2025-05-02 08:35:43,328 - INFO - 192.168.1.4 - - [02/May/2025 08:35:43] "GET /socket.io/?EIO=4&transport=websocket&sid=k4VAw80cfmXaCQUzAAAC HTTP/1.1" 200 -
+2025-05-02 08:36:22,244 - INFO - 192.168.1.4 - - [02/May/2025 08:36:22] "GET /socket.io/?EIO=4&transport=polling&t=PQEzPYS HTTP/1.1" 200 -
+2025-05-02 08:36:22,254 - INFO - Client connected: 54mDjQP1s9q6_BRCAAAF
+2025-05-02 08:36:22,255 - INFO - 192.168.1.4 - - [02/May/2025 08:36:22] "POST /socket.io/?EIO=4&transport=polling&t=PQEzPYe&sid=TYzfJcUUgjYfF-DrAAAE HTTP/1.1" 200 -
+2025-05-02 08:36:22,257 - INFO - 192.168.1.4 - - [02/May/2025 08:36:22] "GET /socket.io/?EIO=4&transport=polling&t=PQEzPYg&sid=TYzfJcUUgjYfF-DrAAAE HTTP/1.1" 200 -
