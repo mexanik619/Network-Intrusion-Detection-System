@@ -2,6 +2,9 @@ import streamlit as st
 import subprocess
 import os
 import tempfile
+import pandas as pd
+import matplotlib.pyplot as plt
+import io
 
 st.title("Simple Network Intrusion Detection System (NIDS)")
 
@@ -45,7 +48,34 @@ if start_detection:
 
     try:
         result = subprocess.run(cmd, capture_output=True, text=True, check=True)
-        st.text_area("Detection Output", result.stdout, height=400)
+        output = result.stdout
+        st.text_area("Detection Output", output, height=400)
+
+        # Process detection output into DataFrame (assuming format like 'timestamp,src_ip,dst_ip,attack_type')
+        lines = [line for line in output.splitlines() if "," in line]
+        if lines:
+            data = [line.split(",") for line in lines]
+            df = pd.DataFrame(data, columns=["Timestamp", "Source IP", "Destination IP", "Attack Type"])
+
+            st.subheader("Detection Summary")
+            st.dataframe(df)
+
+            st.subheader("Attack Frequency by Type")
+            attack_counts = df["Attack Type"].value_counts()
+            fig, ax = plt.subplots()
+            attack_counts.plot(kind="bar", ax=ax)
+            ax.set_ylabel("Count")
+            ax.set_title("Number of Attacks per Type")
+            st.pyplot(fig)
+
+            st.subheader("Top Source IPs")
+            top_sources = df["Source IP"].value_counts().head(10)
+            fig2, ax2 = plt.subplots()
+            top_sources.plot(kind="bar", ax=ax2)
+            ax2.set_ylabel("Count")
+            ax2.set_title("Top 10 Source IPs")
+            st.pyplot(fig2)
+
     except subprocess.CalledProcessError as e:
         st.error("Error occurred during execution:")
         st.text(e.stderr)

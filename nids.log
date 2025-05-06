@@ -30,3 +30,30 @@
 2025-05-06 05:32:24,027 - WARNING - ALERT: DDoS detected from 192.168.0.223 - High packet rate: 101 packets
 2025-05-06 05:32:24,100 - WARNING - ALERT: DDoS detected from 35.186.224.22 - High packet rate: 101 packets
 2025-05-06 05:32:24,132 - INFO - NIDS shutting down
+2025-05-06 06:01:42,073 - INFO - NIDS initialized with the following parameters:
+2025-05-06 06:01:42,073 - INFO - Interface: None
+2025-05-06 06:01:42,073 - INFO - PCAP file: C:\Users\ADMINI~1\AppData\Local\Temp\tmp2gy_2l6y.pcap
+2025-05-06 06:01:42,073 - INFO - Port scan threshold: 15
+2025-05-06 06:01:42,073 - INFO - DDoS threshold: 100
+2025-05-06 06:01:42,073 - INFO - Whitelist: set()
+2025-05-06 06:01:42,073 - INFO - Starting Network Intrusion Detection System...
+2025-05-06 06:01:42,073 - INFO - Reading packets from C:\Users\ADMINI~1\AppData\Local\Temp\tmp2gy_2l6y.pcap
+2025-05-06 06:01:42,135 - WARNING - ALERT: DDoS detected from 192.168.0.223 - High packet rate: 101 packets
+2025-05-06 06:01:42,214 - WARNING - ALERT: DDoS detected from 35.186.224.22 - High packet rate: 101 packets
+2025-05-06 06:01:42,250 - INFO - NIDS shutting down
+2025-05-06 06:02:07,530 - INFO - NIDS initialized with the following parameters:
+2025-05-06 06:02:07,531 - INFO - Interface: Wi-Fi
+2025-05-06 06:02:07,531 - INFO - PCAP file: None
+2025-05-06 06:02:07,531 - INFO - Port scan threshold: 15
+2025-05-06 06:02:07,531 - INFO - DDoS threshold: 100
+2025-05-06 06:02:07,531 - INFO - Whitelist: set()
+2025-05-06 06:02:07,531 - INFO - Starting Network Intrusion Detection System...
+2025-05-06 06:02:07,531 - INFO - Capturing packets on interface Wi-Fi
+2025-05-06 06:02:22,491 - INFO - NIDS initialized with the following parameters:
+2025-05-06 06:02:22,506 - INFO - Interface: Wi-Fi
+2025-05-06 06:02:22,506 - INFO - PCAP file: None
+2025-05-06 06:02:22,506 - INFO - Port scan threshold: 15
+2025-05-06 06:02:22,506 - INFO - DDoS threshold: 100
+2025-05-06 06:02:22,506 - INFO - Whitelist: set()
+2025-05-06 06:02:22,506 - INFO - Starting Network Intrusion Detection System...
+2025-05-06 06:02:22,506 - INFO - Capturing packets on interface Wi-Fi
