@@ -1,5 +1,4 @@
-##!/usr/bin/env python3
-#C:\Users\Administrator\Documents\GitHub\Network-Intrusion-Detection-System\nids.py
+#!/usr/bin/env python3
 """
 Basic Network Intrusion Detection System (NIDS)
 This script demonstrates fundamental NIDS functionality including:
@@ -13,6 +12,8 @@ import datetime
 import ipaddress
 import logging
 import sys
+import re
+
 import time
 from collections import defaultdict, deque
 from typing import Dict, List, Set, Tuple, DefaultDict, Deque
@@ -66,6 +67,7 @@ class NetworkIDS:
         # Data structures for tracking activity
         self.port_scan_tracker: Dict[str, Set[int]] = defaultdict(set)
         self.syn_flood_tracker: Dict[str, int] = defaultdict(int)
+        self.icmp_flood_tracker: DefaultDict[str, int] = defaultdict(int)
         self.packet_count: DefaultDict[str, int] = defaultdict(int)
         self.connection_tracker: DefaultDict[Tuple[str, str], int] = defaultdict(int)
         
@@ -141,7 +143,7 @@ class NetworkIDS:
         dst_port = tcp.dport
         
         # Detect port scanning
-        if tcp.flags & 0x02:  # SYN flag
+        if tcp.flags == 'S':  # SYN flag
             # Track ports being scanned by this source
             self.port_scan_tracker[ip_src].add(dst_port)
             
@@ -175,8 +177,8 @@ class NetworkIDS:
         icmp = packet[scapy.ICMP]
         
         # ICMP flood detection
-        self.syn_flood_tracker[ip_src] += 1
-        if self.syn_flood_tracker[ip_src] > self.threshold_ddos // 2:
+        self.icmp_flood_tracker[ip_src] += 1
+        if self.icmp_flood_tracker[ip_src] > self.threshold_ddos // 2:
             self._generate_alert("ICMP Flood", ip_src, 
                                f"High ICMP rate: {self.syn_flood_tracker[ip_src]} packets")
     
@@ -188,9 +190,13 @@ class NetworkIDS:
             
             # Check against known bad patterns
             for pattern in self.bad_patterns:
-                if pattern in payload:
-                    self._generate_alert("Malicious Pattern", ip_src, 
-                                       f"Detected pattern: {pattern.decode('utf-8', errors='replace')}")
+                try:
+                    if re.search(pattern.decode('utf-8'), payload.decode('utf-8', errors='ignore')):
+                        self._generate_alert("Malicious Pattern", ip_src, 
+                                           f"Detected pattern: {pattern.decode('utf-8', errors='replace')}")
+                except Exception as e:
+                    logger.debug(f"Pattern matching error: {e}")
+
     
     def _generate_alert(self, alert_type: str, source: str, details: str):
         """Generate an alert for suspicious activity"""

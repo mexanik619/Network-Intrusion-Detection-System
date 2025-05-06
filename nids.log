@@ -1,2 +1,32 @@
 2025-05-02 08:14:31,744 - ERROR - Either network interface (-i) or PCAP file (-r) must be specified
 2025-05-02 08:26:32,626 - ERROR - Either network interface (-i) or PCAP file (-r) must be specified
+2025-05-06 05:06:38,091 - ERROR - Either network interface (-i) or PCAP file (-r) must be specified
+2025-05-06 05:09:06,655 - INFO - NIDS initialized with the following parameters:
+2025-05-06 05:09:06,655 - INFO - Interface: eth0
+2025-05-06 05:09:06,655 - INFO - PCAP file: None
+2025-05-06 05:09:06,655 - INFO - Port scan threshold: 15
+2025-05-06 05:09:06,655 - INFO - DDoS threshold: 100
+2025-05-06 05:09:06,655 - INFO - Whitelist: set()
+2025-05-06 05:09:06,655 - INFO - Starting Network Intrusion Detection System...
+2025-05-06 05:09:06,655 - INFO - Capturing packets on interface eth0
+2025-05-06 05:09:06,679 - ERROR - Error during packet capture: Interface 'eth0' not found !
+2025-05-06 05:09:06,679 - INFO - NIDS shutting down
+2025-05-06 05:14:17,576 - INFO - NIDS initialized with the following parameters:
+2025-05-06 05:14:17,586 - INFO - Interface: Wi-Fi
+2025-05-06 05:14:17,586 - INFO - PCAP file: None
+2025-05-06 05:14:17,586 - INFO - Port scan threshold: 15
+2025-05-06 05:14:17,586 - INFO - DDoS threshold: 100
+2025-05-06 05:14:17,586 - INFO - Whitelist: set()
+2025-05-06 05:14:17,586 - INFO - Starting Network Intrusion Detection System...
+2025-05-06 05:14:17,586 - INFO - Capturing packets on interface Wi-Fi
+2025-05-06 05:32:23,963 - INFO - NIDS initialized with the following parameters:
+2025-05-06 05:32:23,963 - INFO - Interface: None
+2025-05-06 05:32:23,963 - INFO - PCAP file: C:\Users\ADMINI~1\AppData\Local\Temp\tmpqe0sxykg.pcap
+2025-05-06 05:32:23,963 - INFO - Port scan threshold: 15
+2025-05-06 05:32:23,963 - INFO - DDoS threshold: 100
+2025-05-06 05:32:23,963 - INFO - Whitelist: set()
+2025-05-06 05:32:23,963 - INFO - Starting Network Intrusion Detection System...
+2025-05-06 05:32:23,963 - INFO - Reading packets from C:\Users\ADMINI~1\AppData\Local\Temp\tmpqe0sxykg.pcap
+2025-05-06 05:32:24,027 - WARNING - ALERT: DDoS detected from 192.168.0.223 - High packet rate: 101 packets
+2025-05-06 05:32:24,100 - WARNING - ALERT: DDoS detected from 35.186.224.22 - High packet rate: 101 packets
+2025-05-06 05:32:24,132 - INFO - NIDS shutting down
