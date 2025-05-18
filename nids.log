@@ -57,3 +57,23 @@
 2025-05-06 06:02:22,506 - INFO - Whitelist: set()
 2025-05-06 06:02:22,506 - INFO - Starting Network Intrusion Detection System...
 2025-05-06 06:02:22,506 - INFO - Capturing packets on interface Wi-Fi
+2025-05-09 01:31:46,681 - INFO - NIDS initialized with the following parameters:
+2025-05-09 01:31:46,681 - INFO - Interface: Wi-Fi
+2025-05-09 01:31:46,681 - INFO - PCAP file: None
+2025-05-09 01:31:46,681 - INFO - Port scan threshold: 15
+2025-05-09 01:31:46,681 - INFO - DDoS threshold: 100
+2025-05-09 01:31:46,681 - INFO - Whitelist: set()
+2025-05-09 01:31:46,681 - INFO - Starting Network Intrusion Detection System...
+2025-05-09 01:31:46,681 - INFO - Capturing packets on interface Wi-Fi
+2025-05-09 01:31:46,681 - ERROR - Error during packet capture: Sniffing and sending packets is not available at layer 2: winpcap is not installed. You may use conf.L3socket or conf.L3socket6 to access layer 3
+2025-05-09 01:31:46,682 - INFO - NIDS shutting down
+2025-05-09 01:32:02,563 - INFO - NIDS initialized with the following parameters:
+2025-05-09 01:32:02,563 - INFO - Interface: Wi-Fi
+2025-05-09 01:32:02,563 - INFO - PCAP file: None
+2025-05-09 01:32:02,563 - INFO - Port scan threshold: 15
+2025-05-09 01:32:02,563 - INFO - DDoS threshold: 100
+2025-05-09 01:32:02,563 - INFO - Whitelist: set()
+2025-05-09 01:32:02,563 - INFO - Starting Network Intrusion Detection System...
+2025-05-09 01:32:02,563 - INFO - Capturing packets on interface Wi-Fi
+2025-05-09 01:32:02,563 - ERROR - Error during packet capture: Sniffing and sending packets is not available at layer 2: winpcap is not installed. You may use conf.L3socket or conf.L3socket6 to access layer 3
+2025-05-09 01:32:02,563 - INFO - NIDS shutting down
